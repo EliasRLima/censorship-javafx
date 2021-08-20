@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" style="-fx-background-color: #343434;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PrincipalController">
+   <children>
+      <ImageView fx:id="img_atual" fitHeight="400.0" fitWidth="400.0" layoutX="53.0" layoutY="47.0" pickOnBounds="true" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="190.0"/>
+      <ImageView fx:id="img_edit" fitHeight="400.0" fitWidth="400.0" layoutX="519.0" layoutY="35.0" pickOnBounds="true" AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="190.0"/>
+      <JFXButton fx:id="btn_open" layoutX="37.0" layoutY="35.0" style="-fx-background-color: #454545;" text="Abrir" textFill="WHITE" AnchorPane.leftAnchor="35.0" AnchorPane.topAnchor="35.0">
+         <graphic>
+            <FontAwesomeIcon fill="#1cb7eb" glyphName="FILE" />
+         </graphic>
+      </JFXButton>
+      <JFXButton fx:id="btn_edit" contentDisplay="BOTTOM" layoutX="477.0" layoutY="365.0" style="-fx-border-color: #454545;" text="CENSURAR" textFill="WHITE">
+         <graphic>
+            <FontAwesomeIcon glyphName="ARROW_RIGHT" />
+         </graphic>
+      </JFXButton>
+   </children>
+</AnchorPane>
