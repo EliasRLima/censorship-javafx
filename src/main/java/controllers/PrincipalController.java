@@ -91,7 +91,7 @@ public class PrincipalController implements Initializable{
 	                }
 	            }
 	            
-	            System.out.println("total: "+total+"\nvermelho: "+red+"\npct: "+(double)((double)red/total));
+	           // System.out.println("total: "+total+"\nvermelho: "+red+"\npct: "+(double)((double)red/total));
 	            
 	            if(arqs.carregado()) {
 	            	File arq = arqs.getArquivo();
